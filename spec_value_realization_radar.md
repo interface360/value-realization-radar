@@ -1,4 +1,4 @@
-# Build Specification: Value Realization Radar
+# Value Realization Radar
 
 ## 1. Project Overview & Objective
 **App Name:** Value Realization Radar
