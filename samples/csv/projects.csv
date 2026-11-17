@@ -1,0 +1,55 @@
+Project ID,Account ID,Project Name,Health,Blocker
+PRJ-1001-1,ACC-1001,Agent Workspace,On Track,
+PRJ-1001-2,ACC-1001,Data Migration,In Progress,
+PRJ-1002-1,ACC-1002,Analytics Rollout,At Risk,Template Gap
+PRJ-1002-2,ACC-1002,Agent Workspace,Green,
+PRJ-1002-3,ACC-1002,Customer Portal,Green,
+PRJ-1003-1,ACC-1003,Partner Onboarding,On Hold,API / Integration
+PRJ-1003-2,ACC-1003,Agent Workspace,Green,
+PRJ-1004-1,ACC-1004,Field Service App,In Progress,
+PRJ-1005-1,ACC-1005,Billing Integration,Behind,Feature Request
+PRJ-1005-2,ACC-1005,Customer Portal,Green,
+PRJ-1005-3,ACC-1005,Analytics Rollout,Green,
+PRJ-1006-1,ACC-1006,Customer Portal,At Risk,Feature Request
+PRJ-1006-2,ACC-1006,Billing Integration,At Risk,Feature Request
+PRJ-1007-1,ACC-1007,Data Migration,On Track,
+PRJ-1008-1,ACC-1008,Self-Service Bot,On Hold,Feature Request
+PRJ-1008-2,ACC-1008,Field Service App,Green,
+PRJ-1009-1,ACC-1009,Analytics Rollout,At Risk,Template Gap
+PRJ-1009-2,ACC-1009,Billing Integration,Green,
+PRJ-1009-3,ACC-1009,Agent Workspace,Behind,Feature Request
+PRJ-1010-1,ACC-1010,Field Service App,Green,
+PRJ-1011-1,ACC-1011,Customer Portal,At Risk,API / Integration
+PRJ-1011-2,ACC-1011,Data Migration,Green,
+PRJ-1011-3,ACC-1011,Billing Integration,On Hold,API / Integration
+PRJ-1012-1,ACC-1012,Analytics Rollout,Behind,API / Integration
+PRJ-1012-2,ACC-1012,Customer Portal,Green,
+PRJ-1013-1,ACC-1013,Self-Service Bot,On Track,
+PRJ-1013-2,ACC-1013,Agent Workspace,Green,
+PRJ-1014-1,ACC-1014,Billing Integration,On Hold,Feature Request
+PRJ-1015-1,ACC-1015,Data Migration,In Progress,
+PRJ-1015-2,ACC-1015,Self-Service Bot,Green,
+PRJ-1016-1,ACC-1016,Agent Workspace,Behind,API / Integration
+PRJ-1016-2,ACC-1016,Data Migration,Green,
+PRJ-1016-3,ACC-1016,Self-Service Bot,At Risk,Template Gap
+PRJ-1017-1,ACC-1017,Agent Workspace,At Risk,Feature Request
+PRJ-1017-2,ACC-1017,Partner Onboarding,Green,
+PRJ-1017-3,ACC-1017,Customer Portal,Green,
+PRJ-1018-1,ACC-1018,Agent Workspace,On Track,
+PRJ-1018-2,ACC-1018,Analytics Rollout,In Progress,
+PRJ-1019-1,ACC-1019,Field Service App,On Hold,Template Gap
+PRJ-1019-2,ACC-1019,Billing Integration,Green,
+PRJ-1020-1,ACC-1020,Customer Portal,Behind,API / Integration
+PRJ-1020-2,ACC-1020,Partner Onboarding,Green,
+PRJ-1020-3,ACC-1020,Billing Integration,Green,
+PRJ-1021-1,ACC-1021,Field Service App,On Track,
+PRJ-1021-2,ACC-1021,Customer Portal,Green,
+PRJ-1021-3,ACC-1021,Data Migration,Green,
+PRJ-1022-1,ACC-1022,Data Migration,On Hold,Feature Request
+PRJ-1022-2,ACC-1022,Agent Workspace,Green,
+PRJ-1022-3,ACC-1022,Analytics Rollout,Green,
+PRJ-1023-1,ACC-1023,Billing Integration,On Track,
+PRJ-1023-2,ACC-1023,Analytics Rollout,Green,
+PRJ-1023-3,ACC-1023,Agent Workspace,Green,
+PRJ-1024-1,ACC-1024,Data Migration,At Risk,Template Gap
+PRJ-1024-2,ACC-1024,Analytics Rollout,Green,

@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "status": "stable",
+  "changelog": [
+    "D3 bubble plot: x = days to renewal (imminent on the right), y = value realization %, size = ARR, color = project status",
+    "Pulsing ring on accounts with an active intervention",
+    "Hover tooltip with precise metrics; click opens the Intervention Drawer",
+    "Status filter in the legend; renewal-danger zone shading"
+  ]
+}

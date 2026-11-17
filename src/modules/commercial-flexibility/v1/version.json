@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "status": "stable",
+  "changelog": [
+    "Runway timeline for renewals < 90 days with < 40% realization (thresholds configurable)",
+    "Per-account sliders: term extension and assisted adoption pace",
+    "Projected realization at the new end date vs the healthy-renewal target",
+    "Apply packaging writes a Packaging intervention to the local DB"
+  ]
+}

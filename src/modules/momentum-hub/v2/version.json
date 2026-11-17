@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0-beta.1",
+  "status": "beta",
+  "title": "Priority matrix",
+  "changelog": [
+    "Urgent × Impact priority matrix replaces the Kanban columns",
+    "Urgency = renewal proximity; impact = underused ARR (configurable split)",
+    "Same actions & data as v1 — switch back any time from the Module Manager"
+  ],
+  "options": {
+    "urgentDays": { "type": "number", "label": "Urgent if renewing within", "default": 120, "min": 30, "max": 240, "step": 10, "unit": "d" },
+    "impactArr": { "type": "number", "label": "High impact if underused ARR ≥", "default": 400, "min": 100, "max": 1500, "step": 50, "unit": "k" }
+  }
+}

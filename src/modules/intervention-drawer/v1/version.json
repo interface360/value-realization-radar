@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "status": "stable",
+  "changelog": [
+    "Glassmorphism slide-out with account, sponsor and usage sparkline",
+    "Diagnosis: underused capacity, project status, blockers",
+    "Execute Strategy: Align CS, Deploy FDE, Log Blocker — writes to the local DB",
+    "Activity log and resolve/unblock controls"
+  ]
+}

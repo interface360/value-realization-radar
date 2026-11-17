@@ -1,0 +1,42 @@
+{
+  "$comment": "LLM providers for the VRR Assistant. Tokens are NEVER stored here: each provider names an env var (tokenEnv) that holds its token, e.g. in .env.local. Add any OpenAI-compatible endpoint as a new provider with type \"openai\". Switch the default here, or per-request from the Assistant panel.",
+  "defaultProvider": "gemini",
+  "fallbackProviders": ["openai"],
+  "providers": {
+    "gemini": {
+      "type": "gemini",
+      "label": "Google Gemini (MuleSoft proxy)",
+      "baseUrl": "https://gemini-proxy.demos.mulesoft.com/v1beta",
+      "tokenEnv": "VRR_GEMINI_TOKEN",
+      "auth": "bearer",
+      "model": "gemini-2.5-flash",
+      "models": ["gemini-2.5-flash", "gemini-2.5-pro", "gemini-2.5-flash-lite", "gemini-3-flash-preview"],
+      "temperature": 0.2,
+      "maxOutputTokens": 2048,
+      "thinkingBudget": 0
+    },
+    "openai": {
+      "type": "openai",
+      "label": "Azure OpenAI (MuleSoft proxy)",
+      "baseUrl": "https://azure-openai-proxy.demos.mulesoft.com/v1",
+      "tokenEnv": "VRR_OPENAI_TOKEN",
+      "auth": "bearer",
+      "model": "gpt-4o-mini",
+      "models": ["gpt-4o-mini", "gpt-4o", "gpt-4.1", "gpt-4.1-mini"],
+      "temperature": 0.2,
+      "maxOutputTokens": 2048
+    },
+    "custom": {
+      "type": "openai",
+      "label": "Bring your own (OpenAI-compatible)",
+      "baseUrl": "http://localhost:11434/v1",
+      "tokenEnv": "VRR_CUSTOM_LLM_TOKEN",
+      "auth": "bearer",
+      "model": "llama3.1",
+      "models": ["llama3.1"],
+      "temperature": 0.2,
+      "maxOutputTokens": 2048,
+      "optional": true
+    }
+  }
+}

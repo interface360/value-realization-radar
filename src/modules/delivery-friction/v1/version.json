@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "status": "stable",
+  "changelog": [
+    "D3 treemap grouped by blocker_type; block area = total ARR tied to that blocker",
+    "Account tiles colored by project status; click opens the Intervention Drawer",
+    "Headline call-out of the costliest blocker"
+  ]
+}

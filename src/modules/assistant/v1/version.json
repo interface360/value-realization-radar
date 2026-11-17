@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "status": "beta",
+  "changelog": [
+    "Streaming chat grounded in the docs and live portfolio via read-only tools",
+    "Provider & model switcher (Gemini, OpenAI, bring-your-own OpenAI-compatible)",
+    "Clickable citations: doc links open the Docs tab, account links open the Intervention Drawer"
+  ]
+}

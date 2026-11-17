@@ -1,0 +1,44 @@
+{
+  "name": "value-realization-radar",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "module:new": "node scripts/module.mjs new",
+    "module:version": "node scripts/module.mjs version",
+    "module:list": "node scripts/module.mjs list",
+    "test": "node --test scripts/*.test.mjs server/*/*.test.mjs shared/*/*.test.mjs",
+    "server": "node server/index.js",
+    "server:dev": "node --watch server/index.js",
+    "samples:csv": "node scripts/generate-sample-csv.mjs"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "d3": "^7.9.0",
+    "dexie": "^4.4.7",
+    "dexie-react-hooks": "^4.4.0",
+    "lucide-react": "^1.66.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.20",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxlint": "^1.89.0",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.5"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}

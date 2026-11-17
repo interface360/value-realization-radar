@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "status": "stable",
+  "changelog": [
+    "Renders docs/*.md with sidebar navigation grouped by section",
+    "Full-text search across every section (same index the AI assistant uses)",
+    "Deep links from the assistant open the exact page and heading"
+  ]
+}

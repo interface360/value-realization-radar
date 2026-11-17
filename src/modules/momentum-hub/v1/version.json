@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "status": "stable",
+  "title": "Kanban board",
+  "changelog": [
+    "Kanban columns: Stalled → Delayed → Intervention Active",
+    "Pulls red & amber accounts from the radar automatically",
+    "Deploy FDE/Builder and Initiate Recovery Plan write to the local DB and add a pulsing ring on the radar"
+  ],
+  "options": {
+    "sortBy": {
+      "type": "select",
+      "label": "Sort cards by",
+      "default": "renewal",
+      "choices": [
+        { "value": "renewal", "label": "Renewal date" },
+        { "value": "arr", "label": "ARR (high → low)" },
+        { "value": "realization", "label": "Realization (low → high)" }
+      ]
+    }
+  }
+}

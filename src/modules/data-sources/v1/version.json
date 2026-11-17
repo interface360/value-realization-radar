@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "status": "beta",
+  "changelog": [
+    "Connections per tenant workspace: Salesforce, ServiceNow, HubSpot, any REST/JSON CRM, CSV, demo sandbox",
+    "Schema-driven settings forms; credentials encrypted server-side and never sent back",
+    "Visual field mapper with auto-suggest, transforms, enum value maps and live preview",
+    "Manual, scheduled, incremental and full-refresh pulls with run history"
+  ]
+}
